@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="./human_standard_token_abi.js"></script>
+    <script type="text/javascript" src="./erc20balance.js"></script>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="200" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FT8XYgw9iSx7F7RwHfuWWgs%2FUntitled%3Fnode-id%3D202%253A57"></iframe> 
+</head>
+<body>
+    <h1>ETH Balance Fetcher</h1>
+    <p>Enter your Ethereum Address:</p>
+    <input type="text" size="50" id="address" />
+    <button type="button" onClick="getBalance();">Get Balance</button>
+    <br />
+    <br />
+    <div id="output"></div>
+    <p>Enter ERC20 Token Contract Address:</p>
+    <input type="text" size="50" id="contractAddress" />
+    <button type="button" onClick="getERC20Balance();">Get ERC20 Balance</button>
+    <br />
+    <br />
+    <div id="output2"></div>
+</body>
+</html>
